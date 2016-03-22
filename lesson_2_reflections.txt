@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Creates a .git file in the directory where 'git init' was issued. We need it to customize the setup of a repo.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area lets the user tune the contents of their commit before the commit.
