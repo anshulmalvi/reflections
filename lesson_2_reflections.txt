@@ -5,3 +5,20 @@ Creates a .git file in the directory where 'git init' was issued. We need it to 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area lets the user tune the contents of their commit before the commit.
+
+Commands:
+git diff ( diffs working directory and staging area )
+git diff --staged ( staging area against HEAD revision )
+git diff commit1 commit2
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+large experimental changes can be fully vetted or separated
+compartmentalize work
+team based work
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
